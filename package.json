@@ -1,0 +1,37 @@
+{
+  "name": "metalsmith-uglifyjs",
+  "version": "0.0.1",
+  "description": "A very lightweight Metalsmith uglifyjs2 plugin",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ubenzer/metalsmith-uglifyjs"
+  },
+  "keywords": [
+    "metalsmith",
+    "uglifyjs",
+    "uglify",
+    "mangle"
+  ],
+  "author": "Umut Benzer <umut@benzer.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ubenzer/metalsmith-uglifyjs/issues"
+  },
+  "homepage": "https://github.com/ubenzer/metalsmith-uglifyjs",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "multimatch": "^2.0.0",
+    "uglify-js": "^2.4.24"
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "metalsmith": "^2.0.1",
+    "mocha": "^2.3.3",
+    "should": "^7.1.0",
+    "sinon": "^1.16.1"
+  }
+}
