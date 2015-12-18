@@ -104,7 +104,7 @@ describe("metalsmith-uglifyjs", function() {
         sinon.assert.calledOnce(console.error);
         sinon.assert.calledWithExactly(console.log.firstCall, "Uglifiying a.js...");
         sinon.assert.calledWithExactly(console.log.secondCall, "Uglifiying b.js...");
-        sinon.assert.calledWithExactly(console.error, "WARN: %s", "Dropping unused variable x [?:2,6]");
+        sinon.assert.calledWithExactly(console.error, "WARN: %s", "Dropping unused variable x [0:2,6]");
         return done();
       });
   });
