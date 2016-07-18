@@ -31,7 +31,7 @@
     "assert-dir-equal": "^1.0.1",
     "metalsmith": "^2.1.0",
     "mocha": "^2.5.3",
-    "should": "^9.0.0",
+    "should": "^10.0.0",
     "sinon": "^1.17.4"
   }
 }
