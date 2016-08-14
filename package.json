@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-uglifyjs",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A very lightweight Metalsmith uglifyjs2 plugin",
   "main": "lib/index.js",
   "scripts": {
@@ -23,15 +23,15 @@
   },
   "homepage": "https://github.com/ubenzer/metalsmith-uglifyjs",
   "dependencies": {
-    "lodash": "^4.14.1",
+    "lodash": "^4.15.0",
     "multimatch": "^2.1.0",
     "uglify-js": "^2.7.0"
   },
   "devDependencies": {
     "assert-dir-equal": "^1.0.1",
-    "metalsmith": "^2.1.0",
-    "mocha": "^3.0.0",
-    "should": "^10.0.0",
+    "metalsmith": "^2.2.0",
+    "mocha": "^3.0.2",
+    "should": "^11.1.0",
     "sinon": "^1.17.5"
   }
 }
