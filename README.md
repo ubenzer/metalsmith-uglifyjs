@@ -49,8 +49,14 @@ already minified files using `src` setting if you are using a customized name co
 A `function` that takes a file name as input and expected to return minified file name as output. Default
 function adds `.min.` before extension. _(i.e. a.js -> a.min.js)_
 
+### override
+If `true`, then compressed JS will be written into the same files that were compressed. The `target`
+and `deleteSources` options are discarded in this case.
+
+Default: `false`
+
 ### deleteSources
-A boolean, if true original files will be deleted, if false original files will be kept as-is. Default: `false
+A boolean, if true original files will be deleted, if false original files will be kept as-is. Default: `false`
 
 ### uglifyOptions
 A valid config that will be passed to uglifyjs. Please see [here](https://github.com/mishoo/UglifyJS2#compressor-options) for your options. Default:
