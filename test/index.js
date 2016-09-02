@@ -108,4 +108,16 @@ describe("metalsmith-uglifyjs", function() {
         return done();
       });
   });
+
+  it("should override source files, if we set override setting to true", function(done) {
+    Metalsmith("test/fixtures/basic")
+      .use(uglifyjs({
+        override: true
+      }))
+      .build(function(err) {
+        should(err).be.null();
+        assertDirsEqual("test/fixtures/basic/build", "test/fixtures/basic/expected6");
+        return done();
+      });
+  });
 });
