@@ -1,10 +1,14 @@
 metalsmith-uglifyjs
 ===============
-[![Build Status](https://travis-ci.org/ubenzer/metalsmith-uglifyjs.svg?branch=master)](https://travis-ci.org/ubenzer/metalsmith-uglifyjs)
-[![Dependency Status](https://david-dm.org/ubenzer/metalsmith-uglifyjs.svg)](https://david-dm.org/ubenzer/metalsmith-uglifyjs)
-[![devDependency Status](https://david-dm.org/ubenzer/metalsmith-uglifyjs/dev-status.svg)](https://david-dm.org/ubenzer/metalsmith-uglifyjs#info=devDependencies)
+[![Gitter](https://img.shields.io/gitter/room/ubenzer/metalsmith-uglifyjs.svg?maxAge=2592000&style=flat-square)](https://gitter.im/ubenzer/metalsmith-uglifyjs)
+[![Travis](https://img.shields.io/travis/ubenzer/metalsmith-uglifyjs.svg?maxAge=3600&style=flat-square)](https://travis-ci.org/ubenzer/metalsmith-uglifyjs)
+[![David](https://img.shields.io/david/ubenzer/metalsmith-uglifyjs.svg?maxAge=3600&style=flat-square)](https://david-dm.org/ubenzer/metalsmith-uglifyjs)
+[![David](https://img.shields.io/david/dev/ubenzer/metalsmith-uglifyjs.svg?maxAge=3600&style=flat-square)](https://david-dm.org/ubenzer/metalsmith-uglifyjs#info=devDependencies)
+[![Codecov](https://img.shields.io/codecov/c/github/ubenzer/metalsmith-uglifyjs.svg?maxAge=3600&style=flat-square)](https://codecov.io/gh/ubenzer/metalsmith-uglifyjs)
+[![npm](https://img.shields.io/npm/v/metalsmith-uglifyjs.svg?maxAge=3600&style=flat-square)](https://www.npmjs.com/package/metalsmith-uglifyjs)
+[![npm](https://img.shields.io/npm/dt/metalsmith-uglifyjs.svg?maxAge=3600&style=flat-square)](https://www.npmjs.com/package/metalsmith-uglifyjs)
 
-An [Uglifyjs2](http://lisperator.net/uglifyjs/) plugin for Metalsmith.
+An [Uglifyjs2](http://lisperator.net/uglifyjs/) plugin for [Metalsmith](http://metalsmith.io/).
 
 ## Installation
 
