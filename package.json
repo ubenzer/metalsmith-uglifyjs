@@ -1,10 +1,11 @@
 {
   "name": "metalsmith-uglifyjs",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "A very lightweight Metalsmith uglifyjs2 plugin",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "lint": "eslint **/*.js",
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -29,10 +30,20 @@
   },
   "devDependencies": {
     "assert-dir-equal": "^1.0.1",
+    "codecov": "^1.0.1",
     "eslint": "^3.4.0",
     "metalsmith": "^2.2.0",
     "mocha": "^3.0.2",
+    "nyc": "^8.1.0",
     "should": "^11.1.0",
     "sinon": "^1.17.5"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text",
+      "json"
+    ],
+    "report-dir": "./test/coverage"
   }
 }
