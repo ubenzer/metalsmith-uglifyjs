@@ -62,12 +62,19 @@ Default: `false`
 ### deleteSources
 A boolean, if true original files will be deleted, if false original files will be kept as-is. Default: `false`
 
+
+### active
+A boolean flag, when set to false this whole stuff will be disabled. This can be used to disable uglify based on
+some variable. (e.g. Don't run this on dev but run this on prod.) 
+
+Default: `true`
+
 ### uglifyOptions
 A valid config that will be passed to uglifyjs. Please see [here](https://github.com/mishoo/UglifyJS2#compressor-options) for your options. Default:
 ```js
 uglifyOptions: {
   mangle: false,
-  compr s: {}
+  compress: {}
 }
 ```
 This means use default compress options and do not mangle.
