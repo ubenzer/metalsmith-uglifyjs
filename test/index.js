@@ -120,4 +120,16 @@ describe("metalsmith-uglifyjs", function() {
         return done();
       });
   });
+
+  it("should do nothing if it is disabled by active:false flag", function(done) {
+    Metalsmith("test/fixtures/basic")
+      .use(uglifyjs({
+        active: false
+      }))
+      .build(function(err) {
+        should(err).be.null();
+        assertDirsEqual("test/fixtures/basic/build", "test/fixtures/basic/build");
+        return done();
+      });
+  });
 });
