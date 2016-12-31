@@ -25,7 +25,7 @@
   "homepage": "https://github.com/ubenzer/metalsmith-uglifyjs",
   "dependencies": {
     "eslint": "^3.10.2",
-    "lodash": "^4.17.2",
+    "lodash": "^4.17.4",
     "mocha": "^3.1.0",
     "multimatch": "^2.1.0",
     "nyc": "^8.3.0",
