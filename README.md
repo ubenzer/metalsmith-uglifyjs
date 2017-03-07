@@ -1,5 +1,7 @@
 metalsmith-uglifyjs
 ===============
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ubenzer/metalsmith-uglifyjs.svg)](https://greenkeeper.io/)
 [![Gitter](https://img.shields.io/gitter/room/ubenzer/metalsmith-uglifyjs.svg?maxAge=2592000&style=flat-square)](https://gitter.im/ubenzer/metalsmith-uglifyjs)
 [![Travis](https://img.shields.io/travis/ubenzer/metalsmith-uglifyjs.svg?maxAge=3600&style=flat-square)](https://travis-ci.org/ubenzer/metalsmith-uglifyjs)
 [![David](https://img.shields.io/david/ubenzer/metalsmith-uglifyjs.svg?maxAge=3600&style=flat-square)](https://david-dm.org/ubenzer/metalsmith-uglifyjs)
