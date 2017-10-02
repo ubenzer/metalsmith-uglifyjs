@@ -5,7 +5,9 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint **/*.js",
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -30,7 +32,8 @@
     "multimatch": "^2.1.0",
     "nyc": "^8.3.0",
     "sinon": "^1.17.7",
-    "uglify-js": "^2.7.5"
+    "uglify-js": "^2.7.5",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "assert-dir-equal": "^1.0.1",
@@ -49,5 +52,6 @@
       "json"
     ],
     "report-dir": "./test/coverage"
-  }
+  },
+  "snyk": true
 }
